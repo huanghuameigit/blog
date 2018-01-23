@@ -1,0 +1,6 @@
+#查看本地都有哪些分支  git branch
+#查看所有的分支，包括远程的  git branch -a
+#删除本地的某个分支  git branch -D hongchangfirst
+#删除远程的分支  git branch -r -d origin/hongchangfirst
+#注意这个只是删除本地的索引，而不是真正删除远程分支的内容，要想真正删除远程分支上的内容，可以这样  git push origin :hongchangfirst 
+注意，冒号前面的空格不能少，相当于把一个空分支push到server上，等于删除该分支。
